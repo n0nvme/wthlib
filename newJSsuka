@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>document</title>
+    <script src="http://code.jquery.com/jquery-3.3.1.js"></script>
+    <script>
+        $(document).ready(function() {
+            document.querySelector("canvas").height = innerHeight;
+            document.querySelector("canvas").width = innerWidth;
+
+            function Draw_Rose(winds) { //рисовалка для ветра
+                var rose = document.querySelector("canvas").getContext("2d");
+                //for (var i = 0; i < winds.length; ++i) {
+                //var corner = winds[i][0];
+                //var vector = winds[i][1];
+                //winds[i][0] = Math.acos(corner) * vector ;
+                //winds[i][1] = Math.atan(corner) * winds[i][0];
+                //}
+                rose.beginPath();
+                var is = [];
+                for (i = 0; i < winds.length; ++i) {
+                    winds[i][0] += innerWidth / 2;
+                    winds[i][1] += innerHeight / 2;
+                    is[i] = 0;
+                }
+                var x = winds[0][0];
+                var y = winds[0][1];
+                rose.moveTo(x, y);
+                for (i = 1; i < winds.length; ++i) {
+                    if (winds[i][1] < y) {
+                        y = winds[i][1];
+                        x = winds[i][0];
+                        rose.lineTo(x, y);
+                        rose.moveTo(x, y);
+                        is[i] = 1;
+                    }
+                }
+                for (i = winds.length - 1; i >= 0; --i) {
+                    if (is[i] == 0) {
+                        x = winds[i][0];
+                        y = winds[i][1];
+                        rose.lineTo(x, y);
+                        rose.moveTo(x, y);
+                    }
+                }
+                rose.lineTo(winds[0][0], winds[0][1]);
+                for (i = 0; i < winds.length; ++i) {
+                    rose.moveTo(winds[i][0], winds[i][1]);
+                    for (var j = i + 1; j < winds.length; ++j) {
+                        rose.lineTo(winds[j][0], winds[j][1]);
+                    }
+                }
+                rose.closePath();
+                rose.stroke();
+            }
+
+            function Draw_Temp(temp) { //рисовалка для температуры\давления\осадков
+                var wth = document.querySelector("canvas").getContext("2d");
+                wth.font = "12px Georgia";
+                wth.fillStyle = "fuchsia";
+                for (var i = 0; i < temp.length; ++i) {
+                    temp[i][0] += innerWidth / 2;
+                    temp[i][1] += innerHeight / 2;
+                    wth.fillText(temp[i][2] + "º", temp[i][0], temp[i][1]);
+                }
+            }
+
+            var To_Take1 = [
+                [15, 6],
+                [44, 32],
+                [56, 41],
+                [1, 39],
+                [142, 5],
+                [9, 11]
+            ];
+            var To_Take2 = [
+                [2, 65, 15],
+                [155, 56, 52]
+            ];
+
+            Draw_Rose(To_Take1.sort());
+            Draw_Temp(To_Take2);
+        });
+
+    </script>
+</head>
+
+<body>
+    <canvas></canvas>
+    <style>
+        .canvas {
+            margin: 0;
+        }
+
+    </style>
+</body>
+
+</html>
