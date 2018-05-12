@@ -1,29 +1,49 @@
+# -*- coding: utf-8 -*-
+#!/usr/bin/env python3
+
 import requests
+import math
 
+class WeatherAPI:
 
-class wthlib:
+    __slots__ = ('session', 'raw')
 
     def __init__(self, key: str):
         self.session = requests.Session()
         self.session.params['APPID'] = key
+        self.raw = None
 
-        self.answer = None
-        self.pressure = None
-        self.temp = None
-        self.wind = None
+    def get_data(self, **kwargs) -> None:
+        self.raw = self.session.get('http://api.openweathermap.org/data/2.5/weather',
+                                    params={**kwargs}).json()
+
+    @property
+    def pressure(self) -> int:
+        return self.raw.get('main', {}).get('pressure', 'error')
+
+    @property
+    def temperature(self) -> int:
+        return self.raw.get('main', {}).get('temp', 'error')
+
+    @property
+    def wind(self) -> int:
+        return self.raw.get('wind', 'error')
 
 
-    def get_data(self, **kwargs):
-        self.answer = self.session.get('https://api.openweathermap.org/data/2.5/weather', params={**kwargs}).json()
-        self.pressure = self.answer['main']['pressure']
-        self.temp = self.answer['main']['temp']
-        self.wind = self.answer['wind']
 
-    def get_pressure(self):
-        return self.pressure
 
-    def get_temp(self):
-        return self.temp
+def dc(a, b):
+    return math.cos(a) * b, math.tan(a) * b
 
-    def get_wind(self):
-        return self.wind
+def get_history(lat, lon):
+    loc = str(lat) + ',' + str(lon)
+    parms = {'key': '69f8dd57c5354d22b3f150100181205', 'format': 'json', 'q': loc, 'date': '2018-04-01',
+             'enddate': '2018-04-30'}
+    history = requests.get('https://api.worldweatheronline.com/premium/v1/past-weather.ashx', params=parms).json()
+    weather = history['data']['weather']
+    wind = []
+
+    for k in weather:
+        for i in k['hourly']:
+            tmp = dc(*[int(i['windspeedKmph']), int(i['winddirDegree'])])
+            wind.append(tmp)
