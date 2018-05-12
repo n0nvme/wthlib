@@ -1,0 +1,286 @@
+Привет/www/PaxHeader/__pycache__                                                              000755  000000  000000  00000000134 13275577301 022320  x                                                                                                    ustar 00root                            root                            000000  000000                                                                                                                                                                         38 path=Привет/www/__pycache__/
+27 mtime=1526136513.713557
+27 atime=1526143922.129241
+                                                                                                                                                                                                                                                                                                                                                                                                                                    Привет/www/__pycache__/                                                                       000755  000000  000000  00000000000 13275577301 020423  5                                                                                                    ustar 00root                            root                            000000  000000                                                                                                                                                                         Привет/www/__pycache__/PaxHeader/views.cpython-36.pyc                                         000644  000000  000000  00000000160 13275554637 026163  x                                                                                                    ustar 00root                            root                            000000  000000                                                                                                                                                                         58 path=Привет/www/__pycache__/views.cpython-36.pyc
+27 mtime=1526127007.318631
+27 atime=1526127010.782605
+                                                                                                                                                                                                                                                                                                                                                                                                                Привет/www/__pycache__/views.cpython-36.pyc                                                   000644  000000  000000  00000000641 13275554637 024216  0                                                                                                    ustar 00root                            root                            000000  000000                                                                                                                                                                         3
+
+���Z�   �               @   sD   d dl mZ d dlmZ ejddgd�ejddgd�dd� ��Zd	S )
+�    )�render_template)�app�/�GET)�methodsz/indexc               C   s   t d�S )Nz
+index.html)r   � r   r   �I   /home/ember/Документы/хакатоны/Привет/www/views.py�index   s    r	   N)�flaskr   �wwwr   �router	   r   r   r   r   �<module>   s                                                                                                  Привет/www/PaxHeader/site.py                                                                  000664  001750  001750  00000000127 13275536136 021755  x                                                                                                    ustar 00ember                           ember                           000000  000000                                                                                                                                                                         33 path=Привет/www/site.py
+27 mtime=1526119518.588136
+27 atime=1526119518.592136
+                                                                                                                                                                                                                                                                                                                                                                                                                                         Привет/www/site.py                                                                            000664  001750  001750  00000000137 13275536136 020005  0                                                                                                    ustar 00ember                           ember                           000000  000000                                                                                                                                                                         # -*- coding: utf-8 -*-
+#!/usr/bin/env python3
+
+from flask import Flask
+
+app = Flask(__name__)
+                                                                                                                                                                                                                                                                                                                                                                                                                                 Привет/PaxHeader/wthlib                                                                       000775  001750  001750  00000000123 13275563004 021020  x                                                                                                    ustar 00ember                           ember                           000000  000000                                                                                                                                                                         29 path=Привет/wthlib/
+27 mtime=1526130180.954618
+27 atime=1526130181.074617
+                                                                                                                                                                                                                                                                                                                                                                                                                                             Привет/wthlib/                                                                                000775  001750  001750  00000000000 13275563004 017125  5                                                                                                    ustar 00ember                           ember                           000000  000000                                                                                                                                                                         PaxHeader/Привет                                                                              000775  001750  001750  00000000114 13275562575 017543  x                                                                                                    ustar 00ember                           ember                           000000  000000                                                                                                                                                                         22 path=Привет/
+27 mtime=1526130045.567643
+27 atime=1526130045.983639
+                                                                                                                                                                                                                                                                                                                                                                                                                                                    Привет/                                                                                       000775  001750  001750  00000000000 13275562575 015650  5                                                                                                    ustar 00ember                           ember                           000000  000000                                                                                                                                                                         Привет/www/PaxHeader/__init__.py                                                              000664  001750  001750  00000000133 13275575535 022553  x                                                                                                    ustar 00ember                           ember                           000000  000000                                                                                                                                                                         37 path=Привет/www/__init__.py
+27 mtime=1526135645.832124
+27 atime=1526135646.056122
+                                                                                                                                                                                                                                                                                                                                                                                                                                     Привет/www/__init__.py                                                                        000664  001750  001750  00000000204 13275575535 020601  0                                                                                                    ustar 00ember                           ember                           000000  000000                                                                                                                                                                         # -*- coding: utf-8 -*-
+#!/usr/bin/env python3
+
+from .utils import *
+from .site  import *
+from .api   import *
+from .views import *
+                                                                                                                                                                                                                                                                                                                                                                                            Привет/www/PaxHeader/static                                                                   000775  001750  001750  00000000127 13275537061 021652  x                                                                                                    ustar 00ember                           ember                           000000  000000                                                                                                                                                                         33 path=Привет/www/static/
+27 mtime=1526119985.852601
+27 atime=1526119985.856601
+                                                                                                                                                                                                                                                                                                                                                                                                                                         Привет/www/static/                                                                            000775  001750  001750  00000000000 13275537061 017753  5                                                                                                    ustar 00ember                           ember                           000000  000000                                                                                                                                                                         Привет/www/__pycache__/PaxHeader/api.cpython-36.pyc                                           000644  000000  000000  00000000156 13275577162 025602  x                                                                                                    ustar 00root                            root                            000000  000000                                                                                                                                                                         56 path=Привет/www/__pycache__/api.cpython-36.pyc
+27 mtime=1526136434.358158
+27 atime=1526136440.938108
+                                                                                                                                                                                                                                                                                                                                                                                                                  Привет/www/__pycache__/api.cpython-36.pyc                                                     000644  000000  000000  00000002324 13275577162 023630  0                                                                                                    ustar 00root                            root                            000000  000000                                                                                                                                                                         3
+
+q��Z�  �               @   sf   d dl mZ d dlmZmZ d dlmZmZ ejd�dd� �Z	ejd�dd	� �Z
+ejd
+�dd� �Zd
+S )�    )�
+WeatherAPI)�app�dc)�jsonify�requestz/api/v1/pressurec              C   sT   dt jkr dt jkr tddi�S td�} | jt jd t jd d� td| ji�S d S )N�lon�lat�responce�error� 18e065016c22e54ff1e6a6c7809c34e2)r   r   )r   �argsr   r   �get_dataZpressure)�w� r   �G   /home/ember/Документы/хакатоны/Привет/www/api.py�weather   s
+    r   z/api/v1/temperaturec              C   sT   dt jkr dt jkr tddi�S td�} | jt jd t jd d� td| ji�S d S )Nr   r   r	   r
+   r   )r   r   )r   r   r   r   r
+   �temperature)r   r   r   r   r      s
+    r   z/api/v1/windc              C   sf   dt jkr dt jkr tddi�S td�} | jt jd t jd d� | j}tdt|d |d �i�S d S )	Nr   r   r	   r
+   r   )r   r   �degZspeed)r   r   r   r   r
+   �windr   )r   r   r   r   r   �get_wind   s    r   N)Zwthlibr   �wwwr   r   �flaskr   r   �router   r   r   r   r   r   r   �<module>   s
+                                                                                                                                                                                                                                                                                                               Привет/wthlib/PaxHeader/__pycache__                                                           000755  000000  000000  00000000137 13275602340 022760  x                                                                                                    ustar 00root                            root                            000000  000000                                                                                                                                                                         41 path=Привет/wthlib/__pycache__/
+27 mtime=1526138080.161705
+27 atime=1526143921.485246
+                                                                                                                                                                                                                                                                                                                                                                                                                                 Привет/wthlib/__pycache__/                                                                    000755  000000  000000  00000000000 13275602340 021060  5                                                                                                    ustar 00root                            root                            000000  000000                                                                                                                                                                         Привет/www/PaxHeader/templates                                                                000775  001750  001750  00000000132 13275537454 022363  x                                                                                                    ustar 00ember                           ember                           000000  000000                                                                                                                                                                         36 path=Привет/www/templates/
+27 mtime=1526120236.022708
+27 atime=1526125281.271692
+                                                                                                                                                                                                                                                                                                                                                                                                                                      Привет/www/templates/                                                                         000775  001750  001750  00000000000 13275537454 020470  5                                                                                                    ustar 00ember                           ember                           000000  000000                                                                                                                                                                         Привет/www/__pycache__/PaxHeader/utils.cpython-36.pyc                                         000644  000000  000000  00000000160 13275577301 026157  x                                                                                                    ustar 00root                            root                            000000  000000                                                                                                                                                                         58 path=Привет/www/__pycache__/utils.cpython-36.pyc
+27 mtime=1526136513.709557
+27 atime=1526136514.829549
+                                                                                                                                                                                                                                                                                                                                                                                                                Привет/www/__pycache__/utils.cpython-36.pyc                                                   000644  000000  000000  00000000463 13275577301 024214  0                                                                                                    ustar 00root                            root                            000000  000000                                                                                                                                                                         3
+
+���Zw   �               @   s   d dl Z dd� ZdS )�    Nc             C   s   t j| �| t j| �| fS )N)�mathZcosZtan)�a�b� r   �I   /home/ember/Документы/хакатоны/Привет/www/utils.py�dc   s    r   )r   r   r   r   r   r   �<module>   s                                                                                                                                                                                                                Привет/wthlib/PaxHeader/__init__.py                                                           000664  001750  001750  00000000135 13275647753 023224  x                                                                                                    ustar 00ember                           ember                           000000  000000                                                                                                                                                                         40 path=Привет/wthlib/__init__.py
+27 mtime=1526157291.066232
+26 atime=1526157291.30623
+                                                                                                                                                                                                                                                                                                                                                                                                                                   Привет/wthlib/__init__.py                                                                     000664  001750  001750  00000002537 13275647753 021263  0                                                                                                    ustar 00ember                           ember                           000000  000000                                                                                                                                                                         # -*- coding: utf-8 -*-
+#!/usr/bin/env python3
+
+from www import dc
+
+import requests
+import math
+
+class WeatherAPI:
+
+    __slots__ = ('session', 'raw')
+
+    def __init__(self, key: str):
+        self.session = requests.Session()
+        self.session.params['APPID'] = key
+        self.raw = None
+
+    def get_data(self, **kwargs) -> None:
+        self.raw = self.session.get('http://api.openweathermap.org/data/2.5/weather',
+                                    params={**kwargs}).json()
+
+    @property
+    def pressure(self) -> int:
+        return self.raw.get('main', {}).get('pressure', 'error')
+
+    @property
+    def temperature(self) -> int:
+        return self.raw.get('main', {}).get('temp', 'error')
+
+    @property
+    def wind(self):
+        return self.raw.get('wind', 'error')
+
+
+def get_history(lat, lon):
+    # TODO: Оптимизировать #DONE
+
+    loc = ','.join([lat, lon])
+    parms = {'key': '69f8dd57c5354d22b3f150100181205', 'format': 'json', 'q': loc, 'date': '2018-04-01',
+             'enddate': '2018-04-30'}
+    history = requests.get('https://api.worldweatheronline.com/premium/v1/past-weather.ashx', params=parms).json()
+    weather = history['data']['weather']
+    wind = []
+
+    for k in weather:
+        for i in k['hourly']:
+            tmp = dc(*[int(i['winddirDegree']), int(i['windspeedKmph'])])
+            wind.append(tmp)
+
+    return grahamscan(wind)
+
+def rotate(A, B, C):
+  return (B[0]-A[0])*(C[1]-B[1])-(B[1]-A[1])*(C[0]-B[0])
+
+
+def grahamscan(A):
+  n = len(A)
+  P = []
+  for i in range(0, n):
+      P.append(i)
+  for i in range(0, n):
+    if A[P[i]][0] < A[P[0]][0]:
+      P[i], P[0] = P[0], P[i]
+  for i in range(2, n):
+    j = i
+    while j > 1 and (rotate(A[P[0]], A[P[j-1]], A[P[j]]) < 0):
+      P[j], P[j-1] = P[j-1], P[j]
+      j -= 1
+  S = [P[0],P[1]]
+  for i in range(2,n):
+    while rotate(A[S[-2]], A[S[-1]], A[P[i]]) < 0:
+      del S[-1]
+    S.append(P[i])
+  return S
+
+                                                                                                                                                                 Привет/www/templates/PaxHeader/index.html                                                     000664  001750  001750  00000000144 13275650023 024421  x                                                                                                    ustar 00ember                           ember                           000000  000000                                                                                                                                                                         46 path=Привет/www/templates/index.html
+27 mtime=1526157331.857906
+27 atime=1526157332.061905
+                                                                                                                                                                                                                                                                                                                                                                                                                            Привет/www/templates/index.html                                                               000664  001750  001750  00000000233 13275650023 022447  0                                                                                                    ustar 00ember                           ember                           000000  000000                                                                                                                                                                         <!DOCTYPE html>
+<head>
+  <title>Hello world</title>
+</head>
+<body>
+<h1>404 Not found</h1>
+<p>The requested URL / was not found on this server.</p>
+</body>
+                                                                                                                                                                                                                                                                                                                                                                     Привет/PaxHeader/app.py                                                                       000664  001750  001750  00000000122 13275540016 020730  x                                                                                                    ustar 00ember                           ember                           000000  000000                                                                                                                                                                         28 path=Привет/app.py
+27 mtime=1526120462.108997
+27 atime=1526120462.368995
+                                                                                                                                                                                                                                                                                                                                                                                                                                              Привет/app.py                                                                                 000664  001750  001750  00000000221 13275540016 016757  0                                                                                                    ustar 00ember                           ember                           000000  000000                                                                                                                                                                         # -*- coding: utf-8 -*-
+#!/usr/bin/env python3
+
+from www import *
+
+if __name__ == '__main__':
+    app.run(host='0.0.0.0', port=5000, debug=True)
+                                                                                                                                                                                                                                                                                                                                                                               Привет/www/__pycache__/PaxHeader/site.cpython-36.pyc                                          000644  000000  000000  00000000157 13275540005 025760  x                                                                                                    ustar 00root                            root                            000000  000000                                                                                                                                                                         57 path=Привет/www/__pycache__/site.cpython-36.pyc
+27 mtime=1526120453.465062
+27 atime=1526120464.960975
+                                                                                                                                                                                                                                                                                                                                                                                                                 Привет/www/__pycache__/site.cpython-36.pyc                                                    000644  000000  000000  00000000332 13275540005 024002  0                                                                                                    ustar 00root                            root                            000000  000000                                                                                                                                                                         3
+
+^��Z_   �               @   s   d dl mZ ee�ZdS )�    )�FlaskN)Zflaskr   �__name__�app� r   r   �H   /home/ember/Документы/хакатоны/Привет/www/site.py�<module>   s                                                                                                                                                                                                                                                                                                         Привет/www/__pycache__/PaxHeader/__init__.cpython-36.pyc                                      000644  000000  000000  00000000163 13275575541 026565  x                                                                                                    ustar 00root                            root                            000000  000000                                                                                                                                                                         61 path=Привет/www/__pycache__/__init__.cpython-36.pyc
+27 mtime=1526135649.200099
+27 atime=1526135665.451976
+                                                                                                                                                                                                                                                                                                                                                                                                             Привет/www/__pycache__/__init__.cpython-36.pyc                                                000644  000000  000000  00000000350 13275575541 024612  0                                                                                                    ustar 00root                            root                            000000  000000                                                                                                                                                                         3
+
+]��Z�   �               @   s$   d dl T d dlT d dlT d dlT dS )�   )�*N)ZutilsZsiteZapiZviews� r   r   �L   /home/ember/Документы/хакатоны/Привет/www/__init__.py�<module>   s                                                                                                                                                                                                                                                                                           Привет/www/PaxHeader/api.py                                                                   000664  001750  001750  00000000126 13275647711 021563  x                                                                                                    ustar 00ember                           ember                           000000  000000                                                                                                                                                                         32 path=Привет/www/api.py
+27 mtime=1526157257.530501
+27 atime=1526157257.826499
+                                                                                                                                                                                                                                                                                                                                                                                                                                          Привет/www/api.py                                                                             000664  001750  001750  00000003113 13275647711 017611  0                                                                                                    ustar 00ember                           ember                           000000  000000                                                                                                                                                                         # -*- coding: utf-8 -*-
+#!/usr/bin/env python3
+
+from wthlib import WeatherAPI, get_history
+from www    import app, dc
+from flask  import jsonify, request
+
+@app.route('/api/v1/pressure')
+def weather():
+    # TODO: Оптимизировать однотипные запросы
+    if 'lon' not in request.args and 'lat' not in request.args:
+        return jsonify({'response': 'error'})
+
+    else:
+        w = WeatherAPI('18e065016c22e54ff1e6a6c7809c34e2')
+        w.get_data(lon=request.args['lon'], lat=request.args['lat'])
+        return jsonify({'response': w.pressure})
+
+
+@app.route('/api/v1/temperature')
+def temperature():
+    if 'lon' not in request.args and 'lat' not in request.args:
+        return jsonify({'response': 'error'})
+
+    else:
+        w = WeatherAPI('18e065016c22e54ff1e6a6c7809c34e2')
+        w.get_data(lon=request.args['lon'], lat=request.args['lat'])
+        return jsonify({'response': w.temperature})
+
+
+@app.route('/api/v1/wind')
+def get_wind():
+    if 'lon' not in request.args and 'lat' not in request.args:
+        return jsonify({'response': 'error'})
+
+    else:
+        w = WeatherAPI('18e065016c22e54ff1e6a6c7809c34e2')
+        w.get_data(lon=request.args['lon'], lat=request.args['lat'])
+        wind = w.wind
+        return jsonify({'response': dc(wind['deg'], wind['speed'])})
+
+
+@app.route('/api/v1/history')
+def history():
+    if 'lon' not in request.args and 'lat' not in request.args:
+        return jsonify({'response': 'error'})
+
+    else:
+        history = get_history(lon=request.args['lon'], lat=request.args['lat'])
+        return jsonify({'response': history})
+                                                                                                                                                                                                                                                                                                                                                                                                                                                     Привет/PaxHeader/www                                                                          000775  001750  001750  00000000120 13275574274 020363  x                                                                                                    ustar 00ember                           ember                           000000  000000                                                                                                                                                                         26 path=Привет/www/
+27 mtime=1526134972.877216
+27 atime=1526134972.909216
+                                                                                                                                                                                                                                                                                                                                                                                                                                                Привет/www/                                                                                   000775  001750  001750  00000000000 13275574274 016473  5                                                                                                    ustar 00ember                           ember                           000000  000000                                                                                                                                                                         Привет/www/PaxHeader/views.py                                                                 000664  001750  001750  00000000130 13275647602 022141  x                                                                                                    ustar 00ember                           ember                           000000  000000                                                                                                                                                                         34 path=Привет/www/views.py
+27 mtime=1526157186.191081
+27 atime=1526157186.475078
+                                                                                                                                                                                                                                                                                                                                                                                                                                        Привет/www/views.py                                                                           000664  001750  001750  00000000475 13275647602 020204  0                                                                                                    ustar 00ember                           ember                           000000  000000                                                                                                                                                                         # -*- coding: utf-8 -*-
+#!/usr/bin/env python3
+
+from flask import render_template
+from www   import app
+
+@app.route('/', methods=['GET'])
+@app.route('/index', methods=['GET'])
+def index():
+    # TODO: Втыкнуь готовый html; css/js грузить через jinja #DONE
+    return render_template('main.html')
+                                                                                                                                                                                                   Привет/wthlib/__pycache__/PaxHeader/__init__.cpython-36.pyc                                   000644  000000  000000  00000000166 13275602340 027221  x                                                                                                    ustar 00root                            root                            000000  000000                                                                                                                                                                         64 path=Привет/wthlib/__pycache__/__init__.cpython-36.pyc
+27 mtime=1526138080.161705
+27 atime=1526140019.666769
+                                                                                                                                                                                                                                                                                                                                                                                                          Привет/wthlib/__pycache__/__init__.cpython-36.pyc                                             000644  000000  000000  00000002473 13275602340 025253  0                                                                                                    ustar 00root                            root                            000000  000000                                                                                                                                                                         3
+
+��Z�  �               @   s   d dl Z G dd� d�ZdS )�    Nc               @   sb   e Zd ZdZed�dd�Zdd�dd	�Zeed�d
+d��Z	eed�dd
+��Z
+eed�dd��ZdS )�
+WeatherAPI�session�raw)�keyc             C   s    t j� | _|| jjd< d | _d S )NZAPPID)�requests�Sessionr   �paramsr   )�selfr   � r
+   �O   /home/ember/Документы/хакатоны/Привет/wthlib/__init__.py�__init__
+   s    
+zWeatherAPI.__init__N)�returnc             K   s   | j jd|�d�j� | _d S )Nz.http://api.openweathermap.org/data/2.5/weather)r   )r   �get�jsonr   )r	   �kwargsr
+   r
+   r   �get_data   s    zWeatherAPI.get_datac             C   s   | j jdi �jdd�S )N�main�pressure�error)r   r   )r	   r
+   r
+   r   r      s    zWeatherAPI.pressurec             C   s   | j jdi �jdd�S )Nr   �tempr   )r   r   )r	   r
+   r
+   r   �temperature   s    zWeatherAPI.temperaturec             C   s   | j jdd�S )N�windr   )r   r   )r	   r
+   r
+   r   r      s    zWeatherAPI.wind)r   r   )�__name__�
+__module__�__qualname__�	__slots__�strr   r   �property�intr   r   r   r
+   r
+   r
+   r   r      s   r   )r   r   r
+   r
+   r
+   r   �<module>   s                                                                                                                                                                                                        Привет/www/PaxHeader/utils.py                                                                 000664  001750  001750  00000000130 13275647767 022160  x                                                                                                    ustar 00ember                           ember                           000000  000000                                                                                                                                                                         34 path=Привет/www/utils.py
+27 mtime=1526157303.202135
+27 atime=1526157303.426133
+                                                                                                                                                                                                                                                                                                                                                                                                                                        Привет/www/utils.py                                                                           000664  001750  001750  00000000266 13275647767 020221  0                                                                                                    ustar 00ember                           ember                           000000  000000                                                                                                                                                                         # -*- coding: utf-8 -*-
+#!/usr/bin/env python3
+
+import math
+
+
+
+
+def dc(a, b):
+    ''' dc = lambda a, b: math.cos(a) * b, math.tan(a) * b '''
+    return math.cos(a) * b, math.tan(a) * b
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
